@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal-Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <nav class="nav-links">
+      <ul class="nav-left">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
+      <ul>
+        <li id="langButtons">
+          <button id="deButton">De</button> / <button id="enButton">En</button>
+        </li>
+      </ul>
+      <ul class="nav-right">
+        <li><a href="#stuff">Stuff</a></li>
+        <li><a href="#projects-div"> Smol Projects</a></li>
+      </ul>
+    </nav>
+    <div id="footer">
+      <div>
+        <p>Fiona Buttig</p>
+      </div>
+      <div>
+        <p>buttig.fiona@gmail.com</p>
+        <p>Twitter: FionaButtig</p>
+      </div>
+    
+      </div>
+  </header>
+  <!-- header end -->
+  <main>
+    <!-- Hello There Text -->
+    <div class="helloText">
+      <h1 id="h1Intro">Hello, My Name is Fiona
+          </h1>
+          <!-- <h1 id="h1Intro">Hello, My Name is <span onclick="void(0);" class="tooltip">Fiona
+          <span class="info">
+            <span class="text">Fiona Buttig</span>
+          </span>
+        </span></h1>-->
+      <p id="miniIntro">Im a Junior FrontEnd Developer based in Germany</p>
+    </div>
+    <!-- Hero imagess -->
+    <div>
+      <div class="heroPics">
+        <img class="pills" src="./otherYellowPills.jpeg" alt="">
+        <img class="branch" src="./greenBranchNew.jpg" alt="">
+      </div>
+    </div>
+    <!-- Hero images end -->
+    <!-- About section -->
+    <div class="about" id="about">
+      <div class="aboutBlock">
+        <h2>Quick Introduction</h2>
+        <div class="sidebar">
+          <ul>
+            <li><a href="#projects-div">.</a></li>
+            <li><a href="#stuff">.</a></li>
+            <li><a href="#skills">.</a></li>
+            <li><a href="#about">.</a></li>
+            <li><a href="#">.</a></li>
+          </ul>
+        </div>
+        <br>
+        <p>Im a 19 year old student and self-taught FrontEnd Developer</p>
+        <br>
+        <p>currently studying History and Computer Science at the <a
+            href="https://en.wikipedia.org/wiki/University_of_Jena" target="_blank">Friedrich Schiller University
+          </a></p>
+      </div>
+    </div>
+    <!-- About section end -->
+
+    <!-- Skills section -->
+    <div id="skills">
+      <h2>Skills</h2>
+      <p>HTML | CSS | JavaScript | Sass | Bootstrap | Git</p>
+    </div>
+    <!-- Skills section end -->
+    <!-- stuff section -->
+    <div id="stuff-div">
+      <div class="stuff" id="stuff">
+        <div class="stuff1">
+          <h3>Online Courses / Certificates
+          </h3>
+          <p>Freecodecamp "New Responisve Web Design" + "JavaScript Algorithms and Data
+            Structures" Certificates. <br> + The Odin Project Foundations Course</p>
+        </div>
+        <div class="stuff2">
+          <h3>Twitter</h3>
+          <p>I've been documenting my self-taught adventures on Twitter and doing Challenges like #100DaysOfCode
+            @FionaButtig</p>
+        </div>
+        <div class="stuff3">
+          <h3>Miscellanious Skills</h3>
+          <p>Command Line, Linux environment</p>
+          <p>Languages: German (native), English (fluent), french/japanese (beginner)</p>
+        </div>
+        <div class="stuff4">
+          <h3>Interests</h3>
+          <p>Anime, the Trash Taste Podcast, building miniatures and reading
+            fantasy books</p>
+        </div>
+      </div>
+    </div>
+    <!-- stuff section end -->
+
+    <!-- Projects section start -->
+
+    <div id="projects-div">
+        <div id="project1">
+          <div id="center1">
+            <div id="center1Top">
+              <h4 id="center1Toph4">Rock-Paper-Scissors</h3>
+            </div>
+            <div id="compRow">
+              <img id="compimg" src="comp.png" alt="">
+            </div>
+            <br>
+            <div id="playerRow">
+              <img id="personimg" src="person.png" alt="">
+            <button id="B1" class="button">Rock</button>
+            <button id="B2" class="button">Paper</button>
+            <button id="B3" class="button">Scissors</button>
+          </div>
+          
+          <p id="resultText">Result</p>
+          </div>
+        </div>
+        <div id="project2">
+          <div id="center2">
+            <div id="center2Top">
+              <h4>Etch-a-Sketch</h3>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Projects section end -->
+  </main>
+
+  <script src="app.js"></script>
+  <script src="RPS.js"></script>
+</body>
+
+</html>

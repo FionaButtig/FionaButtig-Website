@@ -1,0 +1,77 @@
+#stuff-div {
+  width: 100%;
+  height: 1000px;
+}
+
+.stuff {
+  height: 100%;
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  display: flex;
+}
+.stuff h3 {
+  font-size: 1.8rem;
+}
+.stuff p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(84, 84, 84);
+}
+.stuff h3,
+.stuff p {
+  width: 70%;
+  position: relative;
+  top: 40%;
+  margin-left: 11%;
+}
+
+.stuff div {
+  display: inline-block;
+}
+
+.stuff1 {
+  width: 50%;
+  border-bottom: 2px solid rgb(186, 186, 186);
+  border-right: 2px solid rgb(186, 186, 186);
+}
+
+.stuff2 {
+  width: 50%;
+  border-bottom: 2px solid rgb(186, 186, 186);
+}
+
+.stuff3 {
+  width: 50%;
+  border-right: 2px solid rgb(186, 186, 186);
+}
+
+.stuff4 {
+  width: 50%;
+}
+
+@media (max-width: 800px) {
+  .stuff div {
+    position: relative;
+    bottom: 5%;
+  }
+  .stuff1 {
+    width: 100%;
+    border: none;
+  }
+  .stuff2 {
+    width: 100%;
+    border: none;
+  }
+  .stuff3 {
+    width: 100%;
+    border: none;
+  }
+  .stuff4 {
+    width: 100%;
+    border: none;
+  }
+}/*# sourceMappingURL=stuff.css.map */

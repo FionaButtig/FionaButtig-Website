@@ -1,0 +1,431 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:ital,wght@0,400;1,500&family=Raleway&family=Smooch&display=swap");
+#projects-div {
+  width: 90%;
+  height: 900px;
+  margin: 0 auto;
+  border-top: 4px solid grey;
+  border-bottom: 4px solid grey;
+}
+
+#project1 {
+  width: 50%;
+  height: 100%;
+  float: left;
+  margin-top: 50px;
+}
+
+#center1 {
+  height: 90%;
+  width: 70%;
+  margin: 0 auto;
+  border: 4px solid rgb(255, 239, 162);
+  position: relative;
+  top: 30px;
+  border-radius: 10px;
+}
+#center1 p {
+  color: rgb(84, 84, 84);
+  font-weight: 800;
+  font-size: 2rem;
+  margin: 20px;
+}
+
+#center1Top {
+  background-color: rgb(255, 230, 104);
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#center1Top h4 {
+  color: white;
+  font-weight: 800;
+  font-size: 2rem;
+  margin: 20px;
+}
+
+#project2 {
+  width: 50%;
+  height: 100%;
+  float: right;
+  margin-top: 50px;
+}
+
+#center2 {
+  height: 90%;
+  width: 70%;
+  margin: 0 auto;
+  border: 4px solid rgb(146, 221, 129);
+  position: relative;
+  top: 30px;
+  border-radius: 10px;
+}
+
+#center2Top {
+  background-color: rgb(109, 216, 85);
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#center2Top h4 {
+  color: white;
+  font-weight: 800;
+  font-size: 2rem;
+  margin: 20px;
+}
+
+/*
+.RPSbutton{
+background-color: white;
+color: rgb(84, 84, 84);
+font-size: 1.6rem;
+font-weight: 800;
+border: 2px solid rgb(84, 84, 84);
+border-radius: 5px;
+margin: 10px;
+}
+*/
+#compimg {
+  width: 100px;
+  height: 100px;
+}
+
+#personimg {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 40px;
+}
+
+#playerRow {
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  top: 140px;
+}
+
+#compRow {
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  top: 60px;
+}
+
+#resultText {
+  position: relative;
+  top: 30%;
+}
+
+button {
+  cursor: pointer;
+}
+
+#stuff-div {
+  width: 100%;
+  height: 1000px;
+}
+
+.stuff {
+  height: 100%;
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  display: flex;
+}
+.stuff h3 {
+  font-size: 1.8rem;
+}
+.stuff p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(84, 84, 84);
+}
+.stuff h3,
+.stuff p {
+  width: 70%;
+  position: relative;
+  top: 40%;
+  margin-left: 11%;
+}
+
+.stuff div {
+  display: inline-block;
+}
+
+.stuff1 {
+  width: 50%;
+  border-bottom: 2px solid rgb(186, 186, 186);
+  border-right: 2px solid rgb(186, 186, 186);
+}
+
+.stuff2 {
+  width: 50%;
+  border-bottom: 2px solid rgb(186, 186, 186);
+}
+
+.stuff3 {
+  width: 50%;
+  border-right: 2px solid rgb(186, 186, 186);
+}
+
+.stuff4 {
+  width: 50%;
+}
+
+@media (max-width: 800px) {
+  .stuff div {
+    position: relative;
+    bottom: 5%;
+  }
+  .stuff1 {
+    width: 100%;
+    border: none;
+  }
+  .stuff2 {
+    width: 100%;
+    border: none;
+  }
+  .stuff3 {
+    width: 100%;
+    border: none;
+  }
+  .stuff4 {
+    width: 100%;
+    border: none;
+  }
+}
+.sidebar {
+  display: inline-block;
+  position: fixed;
+  left: 98%;
+  top: 66%;
+  cursor: pointer;
+}
+.sidebar ul {
+  list-style: none;
+}
+.sidebar li {
+  font-size: 4rem;
+  margin-top: -120px;
+}
+.sidebar li a:hover {
+  color: rgb(84, 84, 84);
+}
+.sidebar li a {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5% 9%;
+  font-weight: 800;
+  color: rgb(84, 84, 84);
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links a {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(84, 84, 84);
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links a:hover {
+  color: black;
+}
+
+.nav-left li {
+  padding-right: 30px;
+}
+
+.nav-right li {
+  padding-left: 30px;
+}
+
+#langButtons {
+  color: rgb(84, 84, 84);
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+#deButton {
+  text-decoration: none;
+  background-color: white;
+  border: none;
+  color: rgb(84, 84, 84);
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+#enButton {
+  text-decoration: none;
+  background-color: white;
+  border: none;
+  color: rgb(84, 84, 84);
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+
+body {
+  width: 100%;
+  height: 100vw;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(84, 84, 84);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(84, 84, 84);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
+.container {
+  width: 100%;
+}
+
+.helloText {
+  margin: 180px;
+  text-align: center;
+}
+
+.helloText h1 {
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+.helloText p {
+  font-weight: 550;
+  margin-top: 10px;
+  font-size: 1.8rem;
+  color: rgb(84, 84, 84);
+}
+
+.heroPics {
+  background-color: grey;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.heroPics .pills {
+  width: 50%;
+}
+.heroPics .branch {
+  width: 50%;
+}
+
+@media (max-width: 800px) {
+  .heroPics img {
+    width: 100%;
+  }
+}
+.about {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid grey;
+}
+
+.about p {
+  font-size: 1.2rem;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+}
+
+.aboutBlock {
+  display: block;
+}
+
+.aboutBlock a {
+  text-decoration: underline;
+  color: rgb(84, 84, 84);
+}
+
+.aboutBlock p {
+  font-weight: 600;
+  color: rgb(84, 84, 84);
+}
+
+#skills {
+  width: 90%;
+  height: 800px;
+  margin: 0 auto;
+  border-top: 2px solid grey;
+  border-bottom: 4px solid grey;
+}
+#skills h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 20%;
+}
+#skills p {
+  font-size: 1.56rem;
+  text-align: center;
+  padding-top: 2%;
+  font-weight: 600;
+  color: rgb(84, 84, 84);
+}
+
+#footer {
+  background-color: #000000;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  color: white;
+  margin-top: 38%;
+  display: flex;
+  justify-content: space-between;
+}
+#footer p {
+  font-size: 1.2rem;
+  color: #fff;
+  display: inline;
+  margin: 20px;
+  font-weight: 500;
+}/*# sourceMappingURL=styles.css.map */

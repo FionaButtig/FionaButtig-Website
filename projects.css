@@ -1,0 +1,129 @@
+#projects-div {
+  width: 90%;
+  height: 900px;
+  margin: 0 auto;
+  border-top: 4px solid grey;
+  border-bottom: 4px solid grey;
+}
+
+#project1 {
+  width: 50%;
+  height: 100%;
+  float: left;
+  margin-top: 50px;
+}
+
+#center1 {
+  height: 90%;
+  width: 70%;
+  margin: 0 auto;
+  border: 4px solid rgb(255, 239, 162);
+  position: relative;
+  top: 30px;
+  border-radius: 10px;
+}
+#center1 p {
+  color: rgb(84, 84, 84);
+  font-weight: 800;
+  font-size: 2rem;
+  margin: 20px;
+}
+
+#center1Top {
+  background-color: rgb(255, 230, 104);
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#center1Top h4 {
+  color: white;
+  font-weight: 800;
+  font-size: 2rem;
+  margin: 20px;
+}
+
+#project2 {
+  width: 50%;
+  height: 100%;
+  float: right;
+  margin-top: 50px;
+}
+
+#center2 {
+  height: 90%;
+  width: 70%;
+  margin: 0 auto;
+  border: 4px solid rgb(146, 221, 129);
+  position: relative;
+  top: 30px;
+  border-radius: 10px;
+}
+
+#center2Top {
+  background-color: rgb(109, 216, 85);
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#center2Top h4 {
+  color: white;
+  font-weight: 800;
+  font-size: 2rem;
+  margin: 20px;
+}
+
+/*
+.RPSbutton{
+background-color: white;
+color: rgb(84, 84, 84);
+font-size: 1.6rem;
+font-weight: 800;
+border: 2px solid rgb(84, 84, 84);
+border-radius: 5px;
+margin: 10px;
+}
+*/
+#compimg {
+  width: 100px;
+  height: 100px;
+}
+
+#personimg {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 40px;
+}
+
+#playerRow {
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  top: 140px;
+}
+
+#compRow {
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  top: 60px;
+}
+
+#resultText {
+  position: relative;
+  top: 30%;
+}
+
+button {
+  cursor: pointer;
+}/*# sourceMappingURL=projects.css.map */
