@@ -86,19 +86,27 @@ body {
 }
 */
 
+/*
+@media only screen and (max-width: 500px){
+      .pills{
+            width: 100%;
+      }
+      .branch{
+            width: 100%;
+      }
+}
+*/
 @media only screen and (min-width: 768px) {
       .helloText h1 {
             font-size: 4rem;
             color: #000000;
             font-weight: 500;
+            font-weight: 800;
        }
 
       .helloText p {
             font-size: 1.7rem;
       }
-
-
-
 }
 
 // Hero Pics end
