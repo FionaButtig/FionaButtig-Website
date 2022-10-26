@@ -78,10 +78,27 @@ body {
       }
 }
 
-@media (max-width: 800px) {
+/*
+@media only screen and (min-width: 800px) {
  .heroPics img {
   width: 100%;
  }
+}
+*/
+
+@media only screen and (min-width: 768px) {
+      .helloText h1 {
+            font-size: 4rem;
+            color: #000000;
+            font-weight: 500;
+       }
+
+      .helloText p {
+            font-size: 1.7rem;
+      }
+
+
+
 }
 
 // Hero Pics end

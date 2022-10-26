@@ -1,6 +1,10 @@
 const h1Intro = document.querySelector("#h1Intro");
 const miniIntro = document.querySelector("#miniIntro");
 const center1Toph4 = document.querySelector("#center1Toph4");
+const navAbout = document.querySelector("#navAbout");
+const navSkills = document.querySelector("#navSkills");
+const navStuff = document.querySelector("#navStuff");
+const navProjects = document.querySelector("#navProjects");
 
 // lang buttons
 
@@ -12,6 +16,10 @@ deButton.addEventListener("click", function(){
       h1Intro.textContent = "Hallo, mein Name ist Fiona";
       miniIntro.textContent = "Ich bin eine Frontend Entwicklerin aus Deutschland";
       center1Toph4.textContent = "Stein-Schere-Papier";
+      navAbout.textContent = "Über mich";
+      navSkills.textContent = "Fähigkeiten";
+      navStuff.textContent = "Sachen";
+      navProjects.textContent = "Projekte";
 })
 
 
@@ -20,4 +28,5 @@ enButton.addEventListener("click", function(){
       h1Intro.textContent = "Hello, My Name is Fiona";
       miniIntro.textContent = "Im a FrontEnd Developer based in Germany";
       center1Toph4.textContent = "Rock-Paper-Scissors";
+      navAbout.textContent = "About";
 })
